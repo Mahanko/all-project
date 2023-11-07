@@ -1,0 +1,275 @@
+@media screen and (max-width: 648px) {
+  .khabar1 img {
+    margin: 20px -30px;
+    width: 400px;
+    position: sticky;
+  }
+
+  .khabar1 p {
+    left: 0rem;
+    top: 100%;
+    width: 300px;
+  }
+
+  .khabar1 input {
+    left: 0rem;
+    top: 111%;
+    margin-top: 90px;
+    margin-bottom: 40px;
+  }
+
+  .khabar2 {
+    margin-top: 200px;
+    margin-bottom: -110px;
+  }
+
+  .khabar2 img {
+    margin: 20px -30px;
+    width: 400px;
+    position: sticky;
+  }
+
+  .khabar2 p {
+    left: 0rem;
+    top: 100%;
+    width: 300px;
+  }
+
+  .khabar2 input {
+    right: auto;
+    top: 111%;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    direction: ltr;
+  }
+
+  .colifilm {
+    display: block;
+    width: 100%;
+  }
+
+  .title {
+    margin: 30px auto;
+  }
+
+  .texts span {
+    display: inline-block;
+    flex-direction: column;
+    margin-right: 20%;
+  }
+
+  .footer {
+    height: 100px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .swiper-slide .image .black p {
+    margin-bottom: 100px;
+    margin-left: 10px;
+  }
+
+  .box {
+    margin: 0 0px;
+    align-items: center;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+  }
+
+  .details {
+    width: 10px;
+  }
+
+  .second .box .card {
+    max-width: 300px;
+    margin: 20px 0;
+  }
+
+  .second .latest .box .card .details {
+    width: 91%;
+  }
+
+  .nav input[type="search"]:focus {
+    width: 150px;
+    margin-right: -20px;
+  }
+
+}
+
+@media screen and (max-width: 872px) {
+  .nav .menubar {
+    display: inline-block;
+    position: relative;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .nav .menubar {
+    display: block;
+  }
+
+  .swiper-slide .image .black p {
+    margin-bottom: 100px;
+    margin-left: 10px;
+  }
+
+  .swiper-slide {
+    animation: 80s slidey infinite;
+    transition-delay: 30s;
+  }
+
+
+  @keyframes slidey {
+    0% {
+      left: 0%;
+    }
+
+    10% {
+      left: 0%;
+    }
+
+    20% {
+      left: -102%;
+    }
+
+    30% {
+      left: -102%;
+    }
+
+    40% {
+      left: -215%;
+    }
+
+    50% {
+      left: -215%;
+    }
+
+    60% {
+      left: -315%;
+    }
+
+    80% {
+      left: -315%;
+    }
+
+    100% {
+      left: -315%;
+    }
+  }
+
+  .box {
+    margin: 0 30px;
+    align-items: center;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+  }
+
+  .details {
+    width: 10px;
+  }
+
+  .second .box .card {
+    max-width: 400px;
+    margin: 20px -2vmin;
+  }
+
+  .second .latest .box .card .details {
+    width: 92.9%;
+    opacity: 1;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+
+  }
+
+  .second .left {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+
+  .card-btn {
+    left: -8%;
+  }
+
+  .hilight img {
+    top: 200px;
+  }
+
+  .social-media a i {
+    top: 0%;
+    position: absolute;
+    display: inline-flex;
+  }
+}
+
+@media screen and (min-width: 871px) {
+  .nav .menubar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 859px) {
+  .khabar1 input {
+    margin-top: 50px;
+  }
+
+  .khabar1 {
+    margin-bottom: 90px;
+  }
+
+  .khabar2 input {
+    margin-top: 80px;
+  }
+
+  .hilight img {
+    top: 500px;
+  }
+}
+
+@media screen and (min-width: 860px) {
+  .swiper-slide .image .black p {
+    margin-bottom: 70px;
+    margin-left: 10px;
+  }
+
+  .nav input[type="search"]:focus {
+    width: 150px;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .swiper-slide .image .black p {
+    margin-bottom: 60px;
+    margin-left: 10px;
+  }
+
+}
+
+@media screen and (max-width: 1160px) {
+  .texts span {
+    width: 200px;
+    flex-direction: column;
+    display: flex;
+    margin: 25px auto;
+  }
+
+  .footer {
+    height: 400px;
+  }
+
+  .social-media {
+    font-size: 15px;
+    top: 92%;
+    left: 42%;
+    margin-right: 40px;
+    display: flex;
+  }
+
+}
